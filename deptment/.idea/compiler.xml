@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="deptment-provider" />
+        <module name="deptment-eureka" />
+        <module name="deptment-api" />
+        <module name="deptment-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="deptment" target="1.8" />
+      <module name="deptment-api" target="1.8" />
+      <module name="deptment-consumer" target="1.8" />
+      <module name="deptment-eureka" target="1.8" />
+      <module name="deptment-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="deptment" options="" />
+      <module name="deptment-api" options="-parameters" />
+      <module name="deptment-consumer" options="-parameters" />
+      <module name="deptment-eureka" options="-parameters" />
+      <module name="deptment-provider" options="-parameters" />
+    </option>
+  </component>
+</project>
